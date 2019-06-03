@@ -1,0 +1,24 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    padding: 3em;
+
+}
+.green {
+    background-color: #008000;
+}
+
+.orange {
+    background-color: #FF8C00;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0.6em;
+    border-radius: 5px;
+}

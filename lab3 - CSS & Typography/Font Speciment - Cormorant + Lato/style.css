@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+}
+body {
+    margin: 4rem;
+}
+
+
+.first {
+    list-style-type: square;
+}
+.second {
+    list-style-type: disc;
+}
+.third {
+    list-style-type: circle;
+}
+
+h1, h2 {
+    font-family: Cormorant, serif;
+    font-size: 1em;
+	line-height: 1.2;
+	font-weight: bold;
+
+}

@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    margin: 4rem;
+}
+
+article {
+    padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+ul {
+    list-style: none;
+}
+.first {
+    list-style-type: square;
+}
+.second {
+    list-style-type: disc;
+}
+.third {
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 530;
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+tr:nth-child(odd), tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+
+th {
+   
+    background: rgb(215, 215, 215);
+    width: 33%;
+    text-align: left;
+}
+
+th, td {
+    padding: 0.4em;
+}

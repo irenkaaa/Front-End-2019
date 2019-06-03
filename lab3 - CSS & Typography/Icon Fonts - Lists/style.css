@@ -1,0 +1,17 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    padding: 3em;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
