@@ -1,0 +1,13 @@
+html {
+    font: 16px/1.5 Times New Roman, Times, sans-serif;
+}
+
+p {
+    width: 200px;
+    padding: 1.5rem;
+    margin: 5rem auto;
+    border: 5px solid black;
+    border-radius: 1rem;
+    background-color: rgb(64, 224, 208);
+
+}

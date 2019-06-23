@@ -1,0 +1,22 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, table, input, form, select, option {
+    font: inherit;
+}
+
+table {
+    border: 1px solid seagreen;
+    width: 50%;
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid seagreen;
+    padding: 0.5em;
+    text-align: right;
+}
+
+table span {
+    display: none;
+}
