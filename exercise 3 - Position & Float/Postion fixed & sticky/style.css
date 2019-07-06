@@ -1,0 +1,35 @@
+
+
+body {
+    font-size: 20px;
+}
+
+p {
+    padding-bottom: 2rem;
+}
+
+.fixed {
+    background: aquamarine;
+    padding: 2rem;
+    border: 1px solid black;
+    position: fixed;
+    margin: 0 auto;
+    width: 1300px;
+    top: 0;
+    opacity: 0.5;
+    color: wheat;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.sticky {
+    background: yellowgreen;
+    color: wheat;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
