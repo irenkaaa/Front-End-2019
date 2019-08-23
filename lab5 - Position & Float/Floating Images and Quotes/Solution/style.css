@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin:  0 auto;
+    background: rgb(238, 238, 238);
+}
+
+blockquote, h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+p, blockquote {
+    padding-bottom: 1.5rem;
+}
+
+article {
+    padding-bottom: 2rem;
+}
+
+section {
+    padding-top: 1rem;
+}
+
+
+body > header {
+    padding: 1rem 0;
+    border-bottom: 2px solid black;
+}
+
+
+article h3 {
+    padding: 1rem 0;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+}
+
+blockquote {
+    width: 50%;
+    float: right;
+    font-style: italic;
+    opacity: 0.5;     
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
+
+
+.cleaner:after {
+    clear: both;
+    display: block;
+    content:'';
+}
+.right {
+    float: right;
+    margin-left: 1.5rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1.5rem;
+}
+
+
+
+
+ 

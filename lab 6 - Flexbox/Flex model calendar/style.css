@@ -1,0 +1,55 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+} 
+
+
+html {
+    box-sizing: border-box;
+   /* font: 16px/1.5 Helvetica, sans-serif;*/
+}
+
+
+.container {
+   display:flex;
+   align-items: center;
+   max-width:65vw;
+   margin: 5rem auto;
+   border: 1px solid #000000;   
+   
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 85%;
+}
+
+.week .full {
+    display: flex;
+    flex-basis: 100%;
+    padding: 4.55rem;
+    flex: 1 1 45rem;
+}
+
+.week .weekdays {
+    padding: 1.2rem;
+    flex: 1 1 auto;
+}
+.notes span {
+    padding: 0.3rem;
+    flex: 1 1 14rem;
+}
+
+span {
+    border: 1px solid #000000;   
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    flex-wrap: wrap;
+}
+

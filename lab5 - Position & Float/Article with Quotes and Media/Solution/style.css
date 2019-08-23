@@ -1,0 +1,49 @@
+@import url('typography.css');
+
+
+img {
+    border: 4px solid black;
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0 , 0, 0.5);
+}
+
+body > header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+main {
+    padding-top: 1.5rem;
+}
+
+img.right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+img.left {
+    float: left;
+    margin: 1rem 1rem 0 0;
+}
+
+.cleaner {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+blockquote {
+    float: right;
+    width: 50%;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}

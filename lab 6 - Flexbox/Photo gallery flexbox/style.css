@@ -1,0 +1,43 @@
+
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 3rem;
+    margin: 0 auto;
+    padding-top: 5rem;;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery li {
+    display: flex;
+    list-style: none;
+    border: 7px solid black;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.8);
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+
+.gallery img {
+    padding: 1.5rem 1rem;
+}

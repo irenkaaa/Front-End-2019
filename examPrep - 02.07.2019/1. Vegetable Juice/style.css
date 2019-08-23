@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 "PT Serif", serif;
+}
+
+.container {
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+    margin: 3em auto;
+    width: 900px;
+    display: flex;
+}
+
+.container .menu {
+    background-image: url('./Requirements-and-Resources/image/image1.png');
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+.container .menu  h2 {
+    border-bottom: 2px dotted green;
+    text-align: center;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.container .menu .spans {
+    display: flex;
+    padding-bottom: 2em;
+
+}
+
+.container .menu .spans > span {
+    font-style: italic;
+}
+
+.container .menu span:nth-child(2) {
+    margin-left: auto;
+}
+
+.container .menu p,
+.container .menu ul {
+    padding-bottom: 2em;
+
+}
+.container .menu li {
+    list-style: none outside;
+}
+
+.container .menu li span {
+    color: green;
+}
+
+table, th, tr,td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    
+}
+td {
+    text-align: center;
+}
+
+
+.container .picture {
+    flex:0 0 50%;
+    background: url('./Requirements-and-Resources/image/image.jpg') no-repeat center center;
+    background-size: cover;
+}

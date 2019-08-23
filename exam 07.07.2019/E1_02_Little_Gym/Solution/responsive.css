@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+
+    html  {
+        font-size: 14px;
+    }
+    .site-main {
+        margin: 0;
+    }
+    .entry-header {
+        border-radius: 0px;
+    }
+
+    .site-logos-container {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .site-logos-container .site-logo {
+        margin-right: 0;
+        flex-basis: 10%;
+    }
+
+    .site-logo img {
+        width: 7.5rem;
+        height: 7.2rem;
+    }
+
+    .site-logo span {
+        font-size: 1.2rem;
+    }
+
+    .site-information-image {
+        margin: 1em;
+        flex-shrink: 1;
+    }
+    
+    .site-information-text {
+        flex-basis: 53%;
+    }
+
+    .site-information-text .entry-title {
+        font-size: 2.5rem;
+    }
+   
+
+}
+
+
+@media (max-width: 768px) { 
+
+    html {
+        font-size: 12px;
+    }
+    .site-navigation {
+        display: none;
+    }
+
+    .site-logos-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .site-logos-container .site-logo {
+        flex: 0 0 30%;
+        margin-right: 0;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information-text {
+        flex-basis: 75%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .entry-description {
+        width: 100%;
+    }
+
+    .site-posts {
+        flex-wrap: wrap;
+    }
+
+    .site-post {
+        flex-basis: 60%;
+        margin-top: 2.5rem;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

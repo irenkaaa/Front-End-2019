@@ -1,0 +1,276 @@
+@import url('typography.css');
+
+.site {
+  /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: url('../Requirements-and-Resources/images/images/wordpress.png') no-repeat;
+   background-size: contain;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none outside;
+}
+
+button {
+    color:white;
+    background: #FFA000;
+    border:none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.site-header {
+    background: #234465;
+}
+
+.site-header .first-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+}
+
+.site-header .first-line > a {
+    padding-right: 1rem;
+}
+
+.site-header .first-line nav {
+    margin-left: auto;
+}
+
+.site-header .first-line ul {
+    display: flex;
+}
+
+.site-header .first-line ul li{
+    list-style: none outside;
+    padding-right: 0.7rem;
+    font-weight: 600;
+
+}
+
+.site-header .first-line ul li a {
+    text-decoration: none;
+    color: #8CA1B2;
+    padding: 0.5rem;
+
+}
+
+.site-header .first-line > a:first-child img{
+    width: 150px;
+    height: auto;
+}
+
+.site-header .second-line {
+   background: white;
+   padding: 1rem;
+}
+
+.site-header .second-line ul {
+    display: flex;
+    padding-left: 0;
+}
+.site-header .second-line ul li {
+    list-style: none outside;
+    padding-right: 1rem;
+    color:white;
+}
+
+.site-header .second-line ul li a {
+    text-decoration: none;
+    color: #234465;
+    
+}
+
+.site-header .second-line ul li:first-child > a {
+    color: #FFA000;
+}
+
+main {
+
+}
+
+main section {
+    margin-bottom: 1.5rem;
+}
+
+main .wordpress {
+   background: rgba(0,0,0,0.2);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2rem;
+}
+
+main .wordpress h1 {
+    color:white;
+    padding-top: 0.5rem; 
+    font-weight: bold;
+    
+}
+main .wordpress ul {
+    display: flex;
+}
+main .wordpress ul li {
+    list-style: none outside;
+}
+
+main .wordpress ul li i {
+    color: white;
+}
+
+main .wordpress ul a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 0.2rem;
+}
+main .wordpress button,
+main .course-info button,
+main button {
+    padding: 0.5rem 3rem;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.course-info,
+.studyprocess,
+.topics {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F2F2;
+    padding: 2rem;
+    color: #234465;
+}
+
+.dates-options {
+    display:flex;
+    flex-direction: column;
+    background: #F2F2F2;
+    padding: 2rem;
+    color: #234465;
+}
+
+.orange {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    background:#FFA000;
+    padding: 2rem;
+    color: white;
+}
+
+.course-info h3,
+.studyprocess h3,
+.topics h3,
+.dates-options h3 {
+    color: #234465;
+    font-weight: bold;
+}
+
+.orange h3 {
+    color: white;
+    font-weight: bold;
+}
+.orange h3:after {
+    content: '';
+    width: 90%;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+h3:after {
+    content: '';
+    width: 90%;
+    height: 3px;
+    background: #FFA000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.studyprocess, .topics {
+    color: #5F646B;
+}
+.studyprocess ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.studyprocess li {
+    flex-basis: 48%;
+    padding-right: 1rem;
+    padding-bottom: 0.7rem;
+    list-style: none outside;
+}
+.studyprocess li i {
+    color: #FFA000;
+}
+
+.topics ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.topics li {
+    display: flex;
+    align-content: center;
+    flex-basis: 48%;
+    padding: 0.3rem 1rem;
+    list-style: none outside;
+    background: #DADADA;
+    margin: 0.3rem 0.5rem;
+    border-left: 3px solid #234465;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.topics li span {
+    color: #234465;
+    padding-right: 0.8rem;
+}
+
+.dates-options {}
+.dates-options  > h4 {
+    color: #FFA000;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.dates-options .normal-learning,
+.dates-options .online-learning {
+    display:flex;
+    padding: 0.5rem 1rem;
+    width: 98%;
+}
+
+.dates-options .normal-learning h4 ,
+.dates-options .online-learning h4 {
+    flex-basis: 30%;
+}
+
+.dates-options .normal-learning {
+    color: white;
+    background: #234465;
+
+}
+.dates-options .online-learning {
+    color: white;
+    background: #FFA000;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.google.com/specimen/PT+Serif');
+
+* , *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 "PT Serif", serif;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 900px;
+    margin: 2rem auto;
+    box-shadow: 0 0 37px 0 rgba(0,0,0,0.75);
+}
+
+.recipe {
+    background: url('../Requirements-and-Resources/image/image1.png');
+    padding: 2.5rem 1.5rem;
+    flex: 0 0 50%;
+}
+
+.image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    flex: 0 0 50%;
+}
+
+img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: auto;
+}
+
+.img::after {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px dotted green;    
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+ul {
+    margin: 2rem 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li span {
+    color: green;
+    font-weight: 900;
+}
+
+.descripion {
+    margin-bottom: 2.5rem;
+}
+
+table, th, td {
+    border: 1px solid green;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}

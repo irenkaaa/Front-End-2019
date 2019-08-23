@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 Georgia, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+header {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: bold;
+}
+
+
+.card {
+    position: absolute;
+    top: 50%; left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.9);
+    width: 35%;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.media {
+    position: relative;
+    overflow: hidden;
+}
+
+.media::after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media img{
+    position: absolute;
+    top:0; left:0;
+}
+
+
+
+.info {
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+p {
+   padding-bottom: 0.5rem;
+}
+
+
+button {
+    color: white;
+    background: green;
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 0.2rem;
+    float: right;
+}
+

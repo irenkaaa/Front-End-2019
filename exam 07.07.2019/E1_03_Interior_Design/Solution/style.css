@@ -1,0 +1,236 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,400i,700,700i&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 'Roboto', sans-serif;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+p, ul , ol {
+    padding-bottom: 1.5rem;
+}
+
+.site-header {
+    background: url("../Requirements-and-Resources/image/image.jpg") no-repeat center center;
+    position: relative;
+    height: 120vh;
+    background-size:cover;
+}
+
+
+.site-header .left-block{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    width: 15rem;
+    padding: 1.5rem 0 1.5rem 1rem;
+    position: absolute;
+    top: 3em;
+    left:3em;
+}
+.site-header .left-block .title {
+    font-weight: bold;
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.2em;  
+    padding-bottom: 0.7rem;  
+}
+
+.site-header .left-block .title:after {
+    content: '';
+    width: 3.5em;
+    height: 2px;
+    background: #ffffff;
+    display: block;   
+
+}
+
+.site-header .left-block p:nth-child(2) {
+    text-transform: uppercase;
+    padding-bottom: 0.7rem;
+    font-weight: 500;
+}
+
+.site-header .right-block {
+    background-image: linear-gradient(to right, #9f958e, #a9a29c, #b4aea9, #bfbbb8, #cac8c6);
+    position: absolute;
+    top: 16em;
+    right:2em;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0.8rem 0.8rem 0.8rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.site-header .right-block p {
+    color:white;
+    text-shadow: 2px 2px rgb(107, 105, 103);
+    text-align: right;
+}
+
+.site-header .right-block i {
+    margin-left:auto;
+    color:#5a5756;
+    padding-bottom: 1rem;
+
+}
+
+.site-main {
+    background: #F2F0F3;
+}
+
+.site-main .service {
+    padding: 3rem;
+}
+.site-main .service header p,
+.site-main .contact header p {
+    font-family: 'Abril Fatface', serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+
+}
+.site-main .service ul {}
+
+.site-main .service ul li,
+.site-main .contact ul li,
+.site-aside ul li {
+    list-style: none outside;    
+}
+.site-main .service ul li span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.site-main .service ul li span:before {
+    display: inline-block;
+    content: '\f0a9';
+    font-family: 'Font Awesome 5 Free';
+    color: #000000;    
+    font-weight: 900;
+    margin-right: 0.7em;
+}
+
+
+
+.site-main .contact header {
+    border-bottom: 2px solid black;
+    margin-bottom: 1.3rem;
+
+}
+.site-main .contact .wrapper{
+    padding: 0 3rem 0 3rem;    
+}
+
+.site-main .contact header {
+    padding: 0 0 0 3rem;
+}
+.site-main .contact header p {
+    padding-bottom: 0;
+
+}
+
+.site-main .contact ul {
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.site-main .contact li {
+    padding: 0.5rem;
+}
+.site-main .contact li span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+form {
+    padding-bottom: 2rem;
+    max-width: 27rem;
+}
+
+form input[type='email'],
+form input[type='button'] {
+    color: white;
+    padding: 1rem 1.5rem;
+    border:none; 
+    border-radius: 0.5em;
+}
+
+form input[type='email'] {
+    background: #BAB1AD;
+    width: 65%;
+    margin-right: 1rem;
+}
+
+form input[type='button'] {
+    background: #67784D;
+}
+
+form input[type='email']::placeholder {
+    color:white;
+}
+
+.container {
+    display: flex;
+}
+
+.site-aside {
+    background: #BAB1AD;
+    flex-basis: 70%;
+    
+}
+.site-aside ul {
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem 0 1rem;
+}
+.site-aside ul li{
+    padding-bottom: 5rem;
+    display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 1;
+    flex: 0 0 29%
+
+}
+.site-aside ul li span {
+    color: white;
+    font-size: 77px;
+    font-weight: lighter;   
+    text-transform: lowercase;
+
+}
+

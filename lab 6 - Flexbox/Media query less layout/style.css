@@ -1,0 +1,56 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    flex-direction: column;
+    background: gray;
+    padding: 3rem;
+}
+
+header, main, aside, footer {
+    border-radius: 0.5em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    background: white;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+
+.site-content { 
+    display: flex;
+}
+
+header, footer {
+    flex: 1 1 auto;
+}
+
+header {
+    min-height: 15vh;
+}
+
+footer{
+    min-height: 5vh;
+}
+
+main {
+    min-height: 55vh;
+    flex: 1 1 30rem;
+    margin-right: 1rem;
+}
+
+aside {
+    flex: 1 1 10rem;
+}
+

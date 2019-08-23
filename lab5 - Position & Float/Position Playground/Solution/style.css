@@ -1,0 +1,79 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.viewport {
+   
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background-image: linear-gradient(to right, #195e9d, #007cb1, #0098b7, #00b2b1, #41c9a2);    
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, #a93476, #c43963, #d44b4b, #d96532, #d28115);
+}
+
+
+.card {
+    display: block;
+    position: absolute;
+    top:50%;left:50%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+}
+
+.media {
+    overflow: hidden;
+    position: relative;   
+}
+
+.media:after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media::before { /* Замъгляване и Opacity на нашата снимка  */
+    display: block;
+    content: '';
+    top: 0;left: 0;right: 0;bottom: 0; /* така се прави празен контейнер с размерите на контейнера, ..*/
+    position: absolute; /*...на който правим before елемент*/
+    /* background: black; opacity: 0.3; --> може това, а може и вътрешен box-shadow */
+    box-shadow: 3px 0px 45px 20px rgba(0,0,0,0.75) insert;
+    z-index: 1;
+    
+}
+
+.media.portrait:after{
+    padding-top: 177.77%;
+}
+
+.media img{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.media.portrait img{
+    width: auto;
+    height: 100%
+}
+
+i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 5px;
+}
+

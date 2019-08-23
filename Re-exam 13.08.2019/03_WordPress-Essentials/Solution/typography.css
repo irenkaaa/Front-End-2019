@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+
+/*Reset.css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*box-sizing*/
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font: 15px/1.5 "Lato" , sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6, blockquote {
+    font-family: "Lato" , sans-serif;
+    font-size: 1em;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    
+}
+h1 { font-size: 3em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+
+p, ul, ol, blockquote {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+ol > li > ol > li {
+    list-style: lower-roman;
+}
+
+li ul, li ol {
+    padding-top: 0.5em;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li ul li {
+    list-style-type: circle;
+}
+
+
+
+blockquote {
+    padding-left: 2em;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+
+blockquote .author {
+    text-align: right;
+}
+
+.ampersand {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    
+}
