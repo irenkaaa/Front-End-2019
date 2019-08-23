@@ -1,0 +1,141 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(189, 189, 172);
+    width: 80%;
+    max-width: 74rem;
+    padding: 2em 4rem;
+    margin: 0 auto;
+}
+
+
+
+.nav-toggle,
+.nav-toggle-button {
+    display: none;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5em;
+    border-bottom: 3px solid black;
+}
+
+.site-title {
+    margin: 0;
+    margin-left: 0.5em;
+    padding: 0;
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.nav {
+    margin-left: auto;
+    display: block;
+}
+
+.nav ul {
+    display: flex;
+    background: white;
+    padding: 1em 0.3em;
+    border-radius: 0.3em;
+}
+
+.nav li {
+    padding: 0 0.5em;
+    list-style: none outside;
+    display: block;
+}
+
+.nav ul li a {
+    padding: 0.5em 1em;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+    background: black;
+    border-radius: 0.3em;
+}
+
+
+
+.nav ul li a:focus,
+.nav ul li a:hover {
+    background: #369;
+}
+
+.nav ul li a:focus {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .site-header {
+        display: block;
+    }
+
+    .nav-toggle-button .close {
+        display: none;
+    }
+
+    .nav-toggle-button {
+        display: block;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .close {
+        display: block;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .open {
+        display: none;
+    }
+
+    .nav-toggle:checked + .site-header {
+        display: block;
+        border: none;
+    }
+
+    .nav-toggle-button {
+        display: flex;
+        justify-content: center;
+        padding: 3em 0 0.5em 0;
+        font-size: 1.3em;
+    }
+
+    .nav-toggle:checked + .site-header .nav {
+        display: block;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+
+    .nav-toggle:checked + .site-header .nav ul {
+        display: block;
+    }
+    .nav-toggle:checked + .site-header .nav li {
+        padding-bottom: 0.5em; 
+    }
+
+    .nav-toggle:checked + .site-header .nav a {
+        display: flex;
+        flex: 1 0 100%;
+        padding: 1em;
+    }
+}

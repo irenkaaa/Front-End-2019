@@ -1,0 +1,46 @@
+@import url('reset.css');
+@import url('typograpgy.css');
+@import url('navigation.css');
+@import url('layout.css');
+
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+body {
+    margin: 3em auto;
+    background: rgb(245, 237, 223);
+}
+
+.site {
+    max-width: 74rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header > span {
+    border-top: 2px solid black;
+    padding: 0 2.5em;
+    color: white;
+}
+
+p.name {
+    padding-bottom: 0;
+}
+
+
+.site-header .nav {
+    margin-left: auto;
+}
+
+
+ul {
+    display: flex;
+}
+ li {
+    list-style: none outside;
+    padding-right: 2rem;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}

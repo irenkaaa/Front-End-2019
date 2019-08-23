@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+body, input, form, select, option, textarea {
+    font: inherit;
+}
+
+body { 
+    padding: 3rem;
+}
+.container {
+
+    background: rgb(173, 216, 230);
+}
+form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+form fieldset {
+    
+    border-radius: 0.3em;
+    border: none;
+    padding: 2rem;
+    display:flex;
+}
+
+
+form fieldset p {
+    padding-bottom: 1.5rem;
+    display: flex; 
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    color: rgb(4, 4, 94);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+
+form label {
+    display: block;
+    color: rgb(4, 4, 94);
+    padding-right: 1rem;
+    min-width: 6rem;
+}
+
+
+ul {
+    display: flex;   
+}
+
+li {
+    list-style: none;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="email"],
+form textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+}
+textarea {
+    padding: 0.5rem;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.agreementP {
+    padding-left: 0.5rem;
+}
+
+form  input[type="submit"] {
+    padding: 1rem 1.5rem;
+    background:  rgb(4, 4, 94);
+    border-radius: 0.3em;
+    color: #fff;
+    border: 1px solid rgba(36, 35, 35);
+    cursor: pointer;    
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+select,
+form input[type="password"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(187, 184, 184);
+    
+}
+
+
+/*
+
+form input[type="text"]:hover,
+form input[type="text"]:focus,
+form input[type="password"]:hover,
+form input[type="password"]:focus,
+input:hover + i {
+    color:rgb(240, 10, 190);
+    border-color:rgb(240, 10, 190);
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus,
+form input[type="button"]:focus,
+form input[type="button"]:hover {
+    cursor: pointer;
+    border:1px solid rgb(36, 35, 35);
+} 
+

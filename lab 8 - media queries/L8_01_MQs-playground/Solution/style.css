@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding:2rem;
+}
+
+*:after {
+    color:green;
+}
+.mq-width:after {
+    content: 'Viewport width is larger than 600px';
+}
+.mq-height:after {
+    content: 'Viewport height is larger than 600px';
+}
+.mq-ar:after {
+    content: 'Aspect Ratio is larger than 8/5';
+}
+
+
+@media (max-width: 600px) {
+    .mq-width {
+        border: 2px solid lightseagreen;
+        background: lightseagreen;
+        padding: 1rem;
+    }
+}
+
+@media (max-height: 600px) {
+    .mq-height {
+        border: 2px solid lightcoral;
+        background: lightcoral;
+        padding: 1rem;
+    }
+}
+@media (min-aspect-ratio: 8/5) {
+    .mq-ar {
+        border: 2px solid lightgreen;
+        background: lightgreen;
+        padding: 1rem;
+    }
+}

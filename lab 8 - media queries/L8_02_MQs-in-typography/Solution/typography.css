@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+@media (max-width: 500px) { 
+    html {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) { 
+    html {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 1300px) { 
+    html { 
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1800px) { 
+    html { 
+        font-size: 21px; 
+    }
+}
+
+@media (min-width: 1801px) { 
+    html {
+        font-size: 23px; 
+    }
+}
+
+
+/*Reset.css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*box-sizing*/
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font: 16px/1.5 Helvetica , sans-serif;
+    box-sizing: border-box;
+
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+body {
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif serif;
+    line-height: 1.1;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+
+    /*margin: 0 0 0.5em 0;
+    padding: 0;*/
+}
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.1em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.45em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+
+p, ul, ol, blockquote {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+li ul, li ol {
+    padding-top: 0.5em;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ul li ul li {
+    list-style-type: square;
+}
+
+blockquote {
+    padding-left: 2em;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.ampersand {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    
+}

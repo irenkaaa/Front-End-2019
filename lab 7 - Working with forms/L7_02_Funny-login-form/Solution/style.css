@@ -1,0 +1,153 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: Montserrat, sans-serif;
+}
+
+body, input, form, select, option, textarea {
+    font: inherit;
+}
+
+body {
+    padding: 4rem;
+    background: linear-gradient(to right top, #12aef2, #00a1ff, #628cff, #ac69ff, #eb12eb) center center no-repeat;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form fieldset {
+    padding: 2rem;
+    background: white;
+    border: none;
+    border-radius: 0.3em;
+    display:flex;
+
+}
+
+form fieldset p {
+    padding: 0 1rem 1rem 1rem;    
+}
+
+form legend {
+    display:none;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    color:gray;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.connecting-buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.connecting-buttons input[type="button"] {
+    text-decoration: none;
+    border-radius: 0.3em;
+    outline: none;
+    flex-basis: 48%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.blue {
+    
+    color: white;
+    background: rgb(3, 15, 85);
+    border: 1px solid rgba(3, 15, 85);
+}
+
+.blue::before{
+    content: "\f082";
+}
+
+.white {
+    
+    color: gray;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 0 0 0.5rem 0 rgba(0,0,0,0.25);
+
+}
+
+input[type="button"].blue:hover,
+input[type="button"].white:hover {
+    background: linear-gradient(to right top, #12aef2, #00a1ff, #628cff, #ac69ff, #eb12eb) center center no-repeat;
+    border: none;
+}
+
+
+form label {
+    font-weight: lighter;
+    color:gray;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"] {
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+form input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background: rgba(36, 35, 35);
+    border-radius: 0.3em;
+    color: #fff;
+    border: 1px solid rgba(36, 35, 35);
+    cursor: pointer;
+    
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(187, 184, 184);
+    background: rgb(231, 228, 228);
+    border-radius: 0.3em;
+}
+
+form input[type="text"]:hover,
+form input[type="text"]:focus,
+form input[type="password"]:hover,
+form input[type="password"]:focus,
+input:hover + i {
+    color:rgb(240, 10, 190);
+    border-color:rgb(240, 10, 190);
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus,
+form input[type="button"]:focus,
+form input[type="button"]:hover {
+    cursor: pointer;
+    border:1px solid rgb(36, 35, 35);
+} 
+
+i {
+    width: 1rem;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+}

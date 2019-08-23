@@ -1,0 +1,196 @@
+
+.needwebsite {
+    display: flex;
+    padding: 0 3em;
+    
+}
+
+.needwebsite .needtext {
+    display: block;
+    
+}
+
+
+.needtext h3 {
+    font-weight: bold;
+}
+
+.needtext p {
+   width: 70%;
+}
+
+.needtext input[type='submit'] {
+    background: white;
+    color: black;
+    padding: 0.2rem 0.7rem;
+    border: 2px solid black;
+    
+}
+
+.needwebsite .media {
+    padding: 0 4em;
+}
+
+.needwebsite .media img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.ourteam header,
+.newsletter header {
+    text-align: center;    
+}
+
+.ourteam .card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ourteam .card {    
+    flex: 0 1 30%;
+    margin: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.ourteam .card .picture img {
+    width: 10rem;
+    height: 10rem;
+    margin: 1em 0;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.72);
+    border-radius: 6em;
+}
+.ourteam .card .content {
+    text-align: center;
+}
+.ourteam .card .content .name ,
+.ourteam .card .content .description {
+    font-weight: bold;
+}
+.ourteam .card .content .description{
+    font-style: italic;
+}
+
+.ourteam .card .content .descriptionTwo{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.newsletter {
+    background: rgb(78, 1, 78);
+    padding: 2em 0;
+}
+.newsletter header h3 {
+    color: white;
+    margin-bottom: 0.8em;
+}
+
+.newsletter header span {
+    color: rgb(78, 1, 78);
+}
+
+.newsletter form {
+    text-align: center;
+}
+
+.newsletter form input[type='email'] {
+    padding: 0 2em;
+    margin: 0 0.5rem 0 0;
+}
+
+.newsletter form input[type='submit'] {
+    padding: 0 0.3em;
+    background: white;
+    color:black;
+    font-weight: bold;
+}
+
+footer {
+    
+    padding: 2em 2em;
+    box-shadow: inset 0px 20px 20px -20px rgba(104, 52, 123, 0.3);
+    
+}
+
+.site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-footer h1 a {
+    text-decoration: none;
+    color: #000000;
+    outline: none;
+}
+
+.site-footer section {
+    flex: 0 0 28%;
+}
+
+.site-footer h4 {
+    padding-top: 0.3em;
+}
+
+.site-footer .sitemap ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitemap ul li {
+    list-style: none outside;
+    flex-basis: 50%;
+}
+
+.sitemap ul li a {
+    outline: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts li {
+    list-style: none;
+}
+
+.contacts li i {
+    margin-right: 0.8em;
+}
+
+.site-footer h1 a:focus,
+.site-footer h1 a:hover,
+.sitemap ul li a:focus,
+.sitemap ul li a:hover,
+.contacts li:focus,
+.contacts li:hover {
+    color: #68347B;
+}
+
+/* Phones and Tablets */
+@media (max-width: 900px) {
+
+    .site-footer {
+        display: block;
+        padding: 2em;
+    }
+
+    .site-footer .sitemap ul {
+        margin-bottom: 1em;
+    }
+
+
+    .needwebsite, .ourteam {
+        padding: 0 2em;
+        max-width: 100%;
+    }
+
+    .ourteam .card{
+        flex-basis: 45%;
+    }
+
+}

@@ -1,0 +1,84 @@
+
+.site-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.site-header .purple {
+    color: purple;
+    font-size: 2.2em;
+    padding-bottom: 0;
+}
+
+.site-header .header-title p:nth-child(2) {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+
+}
+
+
+.nav-toggle,
+.nav-toggle-button {
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+
+    .site-header {
+        display: flex;
+    }
+
+    .nav-toggle-button .close {
+        display: none;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .close {
+        display: block;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .open {
+        display: none;
+    }
+
+    .nav-toggle:checked + .site-header {
+        display: block;
+        border: none;
+    }
+
+    .nav-toggle-button {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        font-size: 1.3em;
+        margin-left: auto;
+
+    }
+
+    .nav-toggle:checked + .site-header .nav {
+        display: block;
+    }
+
+    .nav-toggle:checked + .site-header .nav ul {
+        display: block;
+    }
+    .nav-toggle:checked + .site-header .nav li {
+        padding-bottom: 0.5em; 
+        
+    }
+
+    .nav-toggle:checked + .site-header .nav a {
+        display: flex;
+        flex: 1 0 100%;
+        padding: 1em;
+        background-color: rgb(56, 47, 29);
+        color: white;
+        font-size: 1.2em;
+    }
+}

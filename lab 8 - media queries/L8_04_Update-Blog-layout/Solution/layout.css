@@ -1,0 +1,100 @@
+
+.page {
+    width: 80%;
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: 2em 4em;
+}
+
+
+.content {
+    display: flex;
+    padding-top: 3em;
+    border-top: 3px solid black;
+    
+}
+
+.page main {
+    flex: 0 0 70%;
+    margin-right: 5rem;    
+}
+
+
+.page aside {
+    flex: 1 0 30%;
+}
+
+.page main section {
+    padding-bottom: 1.5rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+blockquote {
+    float: right;
+    width: 50%;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+
+img {
+
+    border: 2px solid black;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    background-color: rgb(255,255,255);
+}
+
+
+
+
+
+aside section {
+    padding-bottom: 1.5rem;
+}
+
+aside h3 {
+    padding-bottom: 1rem;
+}
+
+aside li {
+    list-style: square;
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+p, h2 {
+    padding-bottom: 1rem;
+}
+
+
+h1, h2, h3, blockquote {
+    font-family: Georgia, serif;
+}
+
+
